@@ -37,7 +37,7 @@ Route::get('/', function () {
             'harga' => 2500000
         ],
         [
-            'nama' => 'kulkas',
+            'nama' => 'tv',
             'harga' => 4000000
         ],
 
