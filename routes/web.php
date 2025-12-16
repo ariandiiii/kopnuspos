@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-route::get('/', function(){
+route::get('/', function () {
     return view('home');
 });
 
@@ -36,6 +36,11 @@ Route::get('/', function () {
             'nama' => 'Lemari Minimalis',
             'harga' => 2500000
         ],
+        [
+            'nama' => 'kulkas',
+            'harga' => 4000000
+        ],
+
     ];
 
     return view('produk', compact('produk'));
